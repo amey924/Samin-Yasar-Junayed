@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For You, Adrita ❤️</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #ffcccb;
+            color: #333;
+            padding: 50px;
+        }
+        .love-box {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            display: inline-block;
+        }
+        h1 {
+            color: #ff4d4d;
+        }
+        .heart-btn {
+            background: #ff4d4d;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 18px;
+            border-radius: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+        .heart-btn:hover {
+            background: #ff1a1a;
+            transform: scale(1.1);
+        }
+        .hidden-message {
+            display: none;
+            margin-top: 20px;
+            font-size: 18px;
+            color: #d63333;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="love-box">
+        <h1>To My Beautiful Adrita ❤️</h1>
+        <p>Every moment with you feels like a dream. You are my happiness, my love, my forever. 😘</p>
+        <button class="heart-btn" onclick="showMessage()">Click Here, My Love 💖</button>
+        <p class="hidden-message" id="message">I Love You, Adrita! Forever Yours, Samin ❤️</p>
+    </div>
+
+    <script>
+        function showMessage() {
+            document.getElementById("message").style.display = "block";
+        }
+    </script>
+
+</body>
+</html>
